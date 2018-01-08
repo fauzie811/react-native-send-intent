@@ -50,6 +50,9 @@ var SendIntentAndroid = {
     openMaps(query) {
         RNSendIntentAndroid.openMaps(query);
     },
+    openMapsWithCoordinates(coordinates) {
+        RNSendIntentAndroid.openMapsWithCoordinates(coordinates);
+    },
     openCamera() {
         RNSendIntentAndroid.openCamera();
     },
